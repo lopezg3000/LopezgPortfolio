@@ -1,5 +1,7 @@
 import React from 'react';
 import Links from './../common/Links';
+import Button from './../common/Button';
+import { ReactComponent as ReactLogo } from './../assets/CommonImages/logo.svg';
 
 const links = [
     { label: 'Home', path: '/home' },
@@ -10,7 +12,13 @@ const links = [
 ];
 
 function NavBar() {
-    return <Links links={links} />;
+    return (
+        <div>
+            <ReactLogo />
+            <Links links={links} />
+            <Button label='Get In Touch' />
+        </div>
+    );
 };
 
 export default NavBar;

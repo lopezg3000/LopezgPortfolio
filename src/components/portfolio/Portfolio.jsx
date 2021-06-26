@@ -1,7 +1,16 @@
 import React from 'react';
+import { introductions } from './../../data/Introductions';
+import Introduction from '../../common/Introduction';
+
+const [, portfolio] = introductions;
 
 function Portfolio() {
-    return <h1>Portfolio</h1>
+    return (
+        <React.Fragment>
+            <h1>Portfolio</h1>
+            <Introduction section={portfolio} />
+        </React.Fragment>
+    );
 };
 
 export default Portfolio;
