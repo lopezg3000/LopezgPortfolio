@@ -1,14 +1,19 @@
-import React from 'react'
+import React from 'react';
+import Image from '../common/Image';
+import Content from '../common/Content';
 
 
-const Card = ({ cardImgPath, headline, description }) => {
+const Card = ({ cardImagePath, cardHeadline, cardDescription, link }) => {
     // const [] = styles; -once I create the styles I will add them to html tags
 
     return (
         <div>
-            <img src={cardImgPath} />
-            <h3>{headline}</h3>
-            <p>{description}</p>
+            <Image imagePath={cardImagePath} />
+            <Content
+                headline={cardHeadline}
+                description={cardDescription}
+                link={link}
+            />
         </div>
     );
 }

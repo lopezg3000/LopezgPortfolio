@@ -1,13 +1,13 @@
 import React from 'react';
 import Card from './Card';
-import ScreenShot from './ScreenShot';
+import Image from './Image';
 
 
 const Project = ({ ...rest }) => {
     return (
         <section>
             <Card {...rest} />
-            <ScreenShot {...rest} />
+            <Image {...rest} />
         </section>
     );
 }

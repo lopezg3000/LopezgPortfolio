@@ -6,19 +6,19 @@ const Skills = () => {
     return (
         <React.Fragment>
             <Card
-                cardImgPath='https://picsum.photos/200'
-                headline='Nunc molestie'
-                description='Nunc molestie magna in nequ'
+                cardImagePath='https://picsum.photos/200'
+                cardHeadline='Nunc molestie'
+                cardDescription='Nunc molestie magna in nequ'
             />
             <Card
-                cardImgPath='https://picsum.photos/200'
-                headline='Suspendisse potenti.'
-                description='Suspendisse potenti. Aenean tincidunt dolor'
+                cardImagePath='https://picsum.photos/200'
+                cardHeadline='Suspendisse potenti.'
+                cardDescription='Suspendisse potenti. Aenean tincidunt dolor'
             />
             <Card
-                cardImgPath='https://picsum.photos/200'
-                headline='Integer nunc'
-                description='Integer nunc dolor, tincidunt a'
+                cardImagePath='https://picsum.photos/200'
+                cardHeadline='Integer nunc'
+                cardDescription='Integer nunc dolor, tincidunt a'
             />
         </React.Fragment>
     );
