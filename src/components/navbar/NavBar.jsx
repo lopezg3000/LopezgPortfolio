@@ -1,7 +1,7 @@
 import React from 'react';
-import Links from './../common/Links';
-import Button from './../common/Button';
-import { ReactComponent as ReactLogo } from './../assets/CommonImages/logo.svg';
+import Links from '../../common/Links';
+import Button from '../../common/Button';
+import { ReactComponent as ReactLogo } from '../../assets/CommonImages/logo.svg';
 
 const links = [
     { label: 'Home', path: '/home' },
@@ -13,11 +13,11 @@ const links = [
 
 function NavBar() {
     return (
-        <div>
+        <header>
             <ReactLogo />
             <Links links={links} />
             <Button label='Get In Touch' />
-        </div>
+        </header>
     );
 };
 

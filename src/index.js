@@ -9,13 +9,12 @@ import reportWebVitals from './reportWebVitals';
 // 1. import {Browserrouter} from 'react-router-dom'
 // 2. wrap app component with BrowserRouter custom tag
 
-
 ReactDOM.render(
-  <React.StrictMode>
+  < React.StrictMode >
     <BrowserRouter>
       <App />
     </BrowserRouter>
-  </React.StrictMode>,
+  </React.StrictMode >,
   document.getElementById('root')
 );
 

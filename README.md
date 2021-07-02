@@ -68,9 +68,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `yarn build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-
-Reminders:
-1. Need to put headline and description to be a reusable component
-2. Need to edit card to take in a screenShot (rename to image component) and content
-3. Make conditional headline so that if it takes in a link prop it becomes a link. 
+ 
