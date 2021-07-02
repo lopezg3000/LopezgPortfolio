@@ -1,4 +1,5 @@
 import React from 'react';
+import './navbar.css';
 import Links from '../../common/Links';
 import Button from '../../common/Button';
 import { ReactComponent as ReactLogo } from '../../assets/CommonImages/logo.svg';
@@ -14,9 +15,15 @@ const links = [
 function NavBar() {
     return (
         <header>
-            <ReactLogo />
-            <Links links={links} />
-            <Button label='Get In Touch' />
+            <div className='navbar-wrapper'>
+                <div className='logo-wrapper'>
+                    <ReactLogo className='logo' />
+                </div>
+                <div className='menu-wrapper'>
+                    <Links links={links} />
+                    <Button wrapperClass='button' label='Get In Touch' />
+                </div>
+            </div>
         </header>
     );
 };

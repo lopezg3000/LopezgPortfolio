@@ -1,4 +1,5 @@
 import React from 'react';
+import './home.css';
 import { introductions } from './../../data/Introductions';
 import Introduction from '../../common/Introduction';
 import Skills from './Skills';
@@ -10,8 +11,12 @@ const [home] = introductions;
 function Home() {
     return (
         <React.Fragment>
-            <h1>Home</h1>
-            <Introduction section={home} />
+            <Introduction
+                sectionWrapper='section-wrapper'
+                headlineClass='headline'
+                paragraphClass='paragraph'
+                section={home}
+            />
             <Skills />
             <FeaturedWork />
             <Contact />

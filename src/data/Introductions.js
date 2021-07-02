@@ -1,7 +1,7 @@
 export const introductions = [
     {
         headline: 'Lorem ipsum dolor sit amet',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam faucibus est ultrices augue scelerisque tempus. Proin ex odio, consectetur egestas est eget, vehicula posuere urna. '
+        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
     },
     {
         headline: 'Morbi sagittis aliquet maximus',

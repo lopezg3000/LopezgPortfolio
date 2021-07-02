@@ -1,6 +1,52 @@
+header {
+    position: relative;
+    top:0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1.375em 0;
+    font-size: 1.125em;
+    font-weight: 700;
+}
+
+.navbar-wrapper {
+    display: flex;
+    height: 50px;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
 
 
-/*
-font title: "lato", sans-serif;
-font copy: "Merriweather", serif;
-*/
+.logo {
+    width: 11rem;
+    height: auto;
+}
+
+.menu-wrapper {
+    display: flex;
+    margin: 0 0 0 auto; /* margin set to auto -> space left over when shrinking size of browser*/
+    align-items: center;
+}
+
+ul {
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+ul > li {
+    padding: .4em .6em;
+}
+
+div.button {
+    width: 25%;
+    padding: .6em .7em 0.6em .7em;
+    background: #006190;
+}
+
+div.button a {
+    background: #006190;
+    color: #fff;
+}
+
+
