@@ -11,12 +11,7 @@ const [home] = introductions;
 function Home() {
     return (
         <div className='main-container'>
-            <Introduction
-                sectionWrapper='section-wrapper'
-                headlineClass='headline'
-                paragraphClass='paragraph'
-                section={home}
-            />
+            <Introduction section={home} />
             <Skills />
             <FeaturedWork />
             <Contact />

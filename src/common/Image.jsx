@@ -2,7 +2,7 @@ import React from 'react'
 
 const Image = ({ imagePath }) => {
     return (
-        <div>
+        <div className='image-wrapper'>
             <img src={imagePath} />
         </div>
     );

@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Content = ({ headline, description, link, icon }) => {
     return (
-        <React.Fragment>
+        <div className='content'>
             {icon && <FontAwesomeIcon icon={icon} />}
             <h3>
                 {link ? (
@@ -13,7 +13,7 @@ const Content = ({ headline, description, link, icon }) => {
                 ) : headline}
             </h3>
             <p>{description}</p>
-        </React.Fragment>
+        </div>
     );
 }
 

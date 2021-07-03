@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import './skills.css';
 import Card from './../../common/Card';
 
 
 const Skills = () => {
     return (
-        <React.Fragment>
+        <div className='skills-container'>
             <Card
                 cardImagePath='https://picsum.photos/200'
                 cardHeadline='Nunc molestie'
@@ -20,7 +21,7 @@ const Skills = () => {
                 cardHeadline='Integer nunc'
                 cardDescription='Integer nunc dolor, tincidunt a'
             />
-        </React.Fragment>
+        </div >
     );
 }
 

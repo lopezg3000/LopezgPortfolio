@@ -3,18 +3,18 @@
     padding: 3em 2rem 4em;
 }
 
-.section-wrapper {
+.introduction-wrapper {
     margin: 0 auto;
     width: 826px;
     text-align: center;
 }
 
-h1.headline {
+.introduction-wrapper h1 {
     font-weight: 900;
-    font-size: clamp(1.8em,calc(1em + 3vw),4.6em);
+    font-size: clamp(1.8em,calc(1em + 3vw),4.6em); /* check out docs https://developer.mozilla.org/en-US/docs/Web/CSS/clamp()*/
 }
 
-p.paragraph {
+.introduction-wrapper p {
     width: 700px;
     font-size: clamp(1.125em,2vw,2em);
     font-weight: 300;
