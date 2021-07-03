@@ -1,20 +1,23 @@
+.main-container {
+    width: 100%;
+    padding: 3em 2rem 4em;
+}
+
 .section-wrapper {
     margin: 0 auto;
     width: 826px;
     text-align: center;
-    padding-top: 3em;
-    
 }
 
 h1.headline {
     font-weight: 900;
-    font-size: 3.75rem;
+    font-size: clamp(1.8em,calc(1em + 3vw),4.6em);
 }
 
 p.paragraph {
     width: 700px;
-    font-size: 1.75rem;
+    font-size: clamp(1.125em,2vw,2em);
     font-weight: 300;
-    margin: .4em auto 0 auto;
+    margin: .4em auto 2.5em auto;
     line-height: 1.5;
 }

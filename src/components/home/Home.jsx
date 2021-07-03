@@ -10,7 +10,7 @@ const [home] = introductions;
 
 function Home() {
     return (
-        <React.Fragment>
+        <div className='main-container'>
             <Introduction
                 sectionWrapper='section-wrapper'
                 headlineClass='headline'
@@ -20,7 +20,7 @@ function Home() {
             <Skills />
             <FeaturedWork />
             <Contact />
-        </React.Fragment>
+        </div>
     );
 };
 
