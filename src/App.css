@@ -2,7 +2,6 @@
   box-sizing: border-box;
   font-family: lato, sans-serif;
   color: #333;
-  /* background: #f9f9f9; */
   list-style-type: none;
   margin: 0;
   text-decoration: none;
@@ -15,6 +14,11 @@ a {
 p {
   font-family: Merriweather, sans-serif;
   /* color: #666; */
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: 900;
 }
 
 hr {

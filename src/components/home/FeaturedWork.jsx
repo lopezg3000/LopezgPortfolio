@@ -1,10 +1,15 @@
-import React from 'react'
+import React from 'react';
+import './featuredWork.css';
 import Project from './../../common/Project';
+import Subtitle from '../../common/Subtitle';
 
 
 const FeaturedWork = () => {
     return (
-        <div>
+        <section className='portfolio-container'>
+            <Subtitle
+                subtitle='Featured Work'
+            />
             <Project
                 cardImagePath='https://picsum.photos/200'
                 cardHeadline='Sed vel'
@@ -24,7 +29,7 @@ const FeaturedWork = () => {
                 cardDescription='Mauris at ipsum lorem. Pellentesque'
                 imagePath='https://picsum.photos/200'
             />
-        </div>
+        </section>
     );
 }
 

@@ -5,10 +5,10 @@ import Image from './Image';
 
 const Project = ({ ...rest }) => {
     return (
-        <section>
+        <div className='project-wrapper'>
             <Card {...rest} />
             <Image {...rest} />
-        </section>
+        </div>
     );
 }
 
