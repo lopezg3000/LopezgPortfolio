@@ -1,5 +1,6 @@
 .main-container {
     width: 100%;
+    min-width: 960px;
     padding: 3em 2rem 4em;
 }
 

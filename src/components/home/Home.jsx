@@ -13,6 +13,7 @@ function Home() {
         <div className='main-container'>
             <Introduction section={home} />
             <Skills />
+            <hr />
             <FeaturedWork />
             <Contact />
         </div>
