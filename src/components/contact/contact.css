@@ -1,0 +1,14 @@
+.contact-container {
+    background-color: #222;
+    border-top: .8em solid #008ccf;
+}
+
+.contact-container h3, svg {
+    color: #fff;
+}
+
+.contact-container p {
+    color: #d8d8d8;
+}
+
+

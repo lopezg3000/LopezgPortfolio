@@ -1,11 +1,16 @@
 * {
   box-sizing: border-box;
   font-family: lato, sans-serif;
-  color: #333;
   list-style-type: none;
   margin: 0;
   text-decoration: none;
 }
+
+body {
+  color: #333;
+}
+
+/*learned to never put color on * class because it's really hard to change*/
 
 a {
   color:#008ccf;
@@ -13,7 +18,6 @@ a {
 
 p {
   font-family: Merriweather, sans-serif;
-  /* color: #666; */
 }
 
 h2 {

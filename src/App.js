@@ -6,6 +6,7 @@ import Home from './components/home/Home';
 import Portfolio from './components/portfolio/Portfolio';
 import About from './components/about/About';
 import Testimonials from './components/testimonials/Testimonials';
+import Contact from './components/contact/Contact';
 import NotFound from './components/notfound/NotFound';
 
 
@@ -23,6 +24,7 @@ function App() {
         <Redirect from='/' exact to='/home' />
         <Redirect to="/notfound" />
       </Switch>
+      <Contact />
     </div>
   );
 }
