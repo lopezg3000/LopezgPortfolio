@@ -8,11 +8,18 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 const Contact = () => {
     return (
         <footer className='contact-container'>
-            <Card
-                cardImagePath='https://picsum.photos/200'
-                cardHeadline='Sed eget '
-                cardDescription='Sed eget leo ultrices lacus'
-            />
+            <div>
+                <Card
+                    cardImagePath='https://picsum.photos/200'
+                    // cardHeadline='Sed eget '
+                    cardDescription='Sed eget leo ultrices lacus'
+                />
+                <Content
+                    headline='Available for hire now'
+                    description='Front end developer'
+
+                />
+            </div>
             <div className='connect-wrapper'>
                 <Content
                     icon={faGithub}

@@ -1,6 +1,16 @@
 .contact-container {
     background-color: #222;
     border-top: .8em solid #008ccf;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contact-container .card-wrapper {
+    width: 50%;
+}
+
+.contact-container .connect-wrapper {
+    width: 50%;
 }
 
 .contact-container h3, svg {
