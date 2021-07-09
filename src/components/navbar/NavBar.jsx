@@ -21,7 +21,7 @@ function NavBar() {
                 </div>
                 <div className='menu-wrapper'>
                     <Links links={links} />
-                    <Button wrapperClass='button' label='Get In Touch' />
+                    <Button wrapperClass='button' path='/home' label='Get In Touch' />
                 </div>
             </div>
         </header>

@@ -10,7 +10,6 @@ import Contact from './components/contact/Contact';
 import NotFound from './components/notfound/NotFound';
 
 
-
 function App() {
   return (
     <div className="App">

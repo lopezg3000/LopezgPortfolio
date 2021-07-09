@@ -1,0 +1,14 @@
+[
+    {
+        "type": "Github",
+        "url": "https://github.com/lopezg3000",
+        "icon": "faGithub",
+        "description": "I am a github icon"
+    },
+    {
+        "type": "Linkedin",
+        "url": "www.linkedin.com/in/lopezgabrieljs",
+        "icon": "faLinkedin",
+        "description": "I am a linkedin icon"
+    }
+]

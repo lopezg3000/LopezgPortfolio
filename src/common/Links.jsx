@@ -6,7 +6,7 @@ function Links({ links }) {
         <ul>
             {links.map(link => {
                 return (
-                    <React.Fragment>
+                    <React.Fragment key={link.label}>
                         <li>
                             <NavLink className='' to={link.path}>{link.label}</NavLink>
                         </li>

@@ -3,7 +3,10 @@
     border-top: .8em solid #008ccf;
     display: flex;
     flex-wrap: wrap;
+    padding: 3em 0 2em;
 }
+
+
 
 .contact-container .card-wrapper {
     width: 50%;
