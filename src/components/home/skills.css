@@ -26,6 +26,10 @@
     margin: 0 0 1em;
 }
 
+.skills-container .card-wrapper .card-body .image-wrapper img{
+    width:63%;
+}
+
 .skills-container .card-wrapper .card-body .content {
     text-align: center;
     margin: 1em 0 0;

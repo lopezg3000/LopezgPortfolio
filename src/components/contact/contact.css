@@ -1,19 +1,101 @@
 .contact-container {
     background-color: #222;
     border-top: .8em solid #008ccf;
-    display: flex;
-    flex-wrap: wrap;
     padding: 3em 0 2em;
 }
 
-
-
-.contact-container .card-wrapper {
-    width: 50%;
+.contact-inner-container {
+    display: flex;
+    gap: 5%;
+    padding: 0 2.3rem;
 }
 
-.contact-container .connect-wrapper {
-    width: 50%;
+.contact-inner-container .about-container {
+    width: 45%;
+}
+
+.contact-inner-container .about-container .card-wrapper {
+    margin: 0 0 1.5em;
+}
+
+.about-container .card-wrapper .card-body {
+    display: flex;
+}
+
+.contact-inner-container .card-wrapper .card-body .image-wrapper {
+    width: 120px;
+    height: 120px;
+    margin: 0 1em 0 0;
+}
+
+.contact-inner-container .card-wrapper .card-body .image-wrapper img {
+    width: 100%;
+}
+
+.contact-inner-container .card-wrapper .card-body .content {
+    width: 78%;
+    margin: auto 0;
+}
+
+
+.contact-inner-container .card-wrapper .card-body .content p {
+    font-size: clamp(0.90em, 1.5vw, 1.13em);
+    font-weight: 300;
+    font-family: merriweather, sans-serif;
+    line-height: 1.8;
+}
+
+.contact-inner-container .about-container .content {
+    display:flex;
+    flex-direction: column;
+}
+
+.contact-inner-container .about-container .content h3{
+    order: 2;
+    font-size: clamp(.9em, 1.5vw, 1.1em);
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contact-inner-container .about-container .content p{
+    margin: 0 0 .5em;
+    font-size: clamp(0.90em, 1.5vw, 1.13em);
+    font-weight: 300;
+    font-family: merriweather, sans-serif;
+}
+
+.contact-inner-container .connect-wrapper {
+    width: 22.5%;
+    margin:.3em 0 0;
+}
+
+.contact-inner-container .connect-wrapper .content {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.contact-inner-container .connect-wrapper .content svg{
+    margin: .1em 0 0;
+}
+
+.contact-inner-container .connect-wrapper .content h3{
+    margin: 0 0 0 .6em;
+    font-size: clamp(.8333em, 1.3vw, 1em);
+    font-weight: 500;
+    font-family: 'Merriweather';
+    text-transform: uppercase;
+}
+
+.contact-inner-container .connect-wrapper .content p{
+    margin: 0 0 0 .6em;
+    width: 100%;
+    margin: .4rem 0 1.2rem;
+    font-weight: 100;
+    font-size: clamp(0.75em, 1vw, 1em);
+}
+
+.contact-inner-container .connect-wrapper .content a{
+    color: #fff;
 }
 
 .contact-container h3, svg {
