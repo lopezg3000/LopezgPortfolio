@@ -1,7 +1,7 @@
 export const introductions = [
     {
-        headline: 'Lorem ipsum dolor sit amet',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+        headline: 'Flawless Front-end Development',
+        description: "Hi. I'm Gabriel, a Front-end Developer a passion for visual and responsive design."
     },
     {
         headline: 'Morbi sagittis aliquet maximus',

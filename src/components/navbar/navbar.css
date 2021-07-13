@@ -16,10 +16,14 @@ header {
     padding: 0 2rem;
 }
 
+.logo-wrapper {
+    margin: auto 0;
+}
+
 
 .logo {
-    width: 11rem;
-    height: auto;
+    width: 15rem;
+    /* height: auto; */
 }
 
 .menu-wrapper {
