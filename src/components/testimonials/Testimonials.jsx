@@ -6,10 +6,9 @@ const [, , , testimonials] = introductions;
 
 function Testimonials() {
     return (
-        <React.Fragment>
-            <h1>Testimonials</h1>
+        <div className='main-container'>
             <Introduction section={testimonials} />
-        </React.Fragment>
+        </div >
     );
 };
 

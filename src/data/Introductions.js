@@ -4,15 +4,16 @@ export const introductions = [
         description: "Hi. I'm Gabriel, a Front-end Developer with a passion for visual and responsive design."
     },
     {
-        headline: 'Morbi sagittis aliquet maximus',
-        description: 'Nam ac odio est. Vestibulum id ex eros. Pellentesque id massa et mi porttitor commodo hendrerit nec ipsum. '
+        headline: 'Front-end Development Portfolio',
+        description: 'Succeed online with a website that is playful and uniquely handcrafted for you.'
     },
     {
-        headline: 'Pellentesque neque arcu, blandit sed sagittis vulputate, vulputate ut enim'
+        headline: 'About',
+        description: 'Coming Soon'
     },
     {
-        headline: 'Praesent quis diam vitae risus laoreet faucibus',
-        description: 'Praesent vitae eleifend eros, in congue tellus. Aenean lobortis, orci et dictum accumsan, lectus ex luctus lorem, nec facilisis magna elit et nibh.'
+        headline: 'Testimonials',
+        description: 'Coming Soon'
     }
 
 ]

@@ -1,15 +1,16 @@
 import React from 'react';
 import { introductions } from './../../data/Introductions';
 import Introduction from '../../common/Introduction';
+import FeaturedWork from '../home/FeaturedWork';
 
 const [, portfolio] = introductions;
 
 function Portfolio() {
     return (
-        <React.Fragment>
-            <h1>Portfolio</h1>
+        <div className='main-container'>
             <Introduction section={portfolio} />
-        </React.Fragment>
+            <FeaturedWork />
+        </div>
     );
 };
 

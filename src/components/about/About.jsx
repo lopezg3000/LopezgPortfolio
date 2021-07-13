@@ -6,10 +6,9 @@ const [, , about] = introductions;
 
 function About() {
     return (
-        <React.Fragment>
-            <h1>About</h1>
+        <div className='main-container'>
             <Introduction section={about} />
-        </React.Fragment>
+        </div>
     );
 };
 
