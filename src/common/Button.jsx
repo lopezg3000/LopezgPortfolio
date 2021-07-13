@@ -2,10 +2,13 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 
-const Button = ({ label, path, wrapperClass, linkClass }) => {
+const Button = ({ label, anchorPath, linkPath }) => {
     return (
-        <div className={wrapperClass}>
-            <Link className={linkClass} to={path}>{label}</Link>
+        <div className='button'>
+            {anchorPath ?
+                <a target='_blank' rel="noopener noreferrer" href={anchorPath}>{label}</a> :
+                <Link className='button' to={linkPath}>{label}</Link>
+            }
         </div>
     );
 }

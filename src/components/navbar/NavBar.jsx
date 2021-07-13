@@ -21,7 +21,7 @@ function NavBar() {
                 </div>
                 <div className='menu-wrapper'>
                     <Links links={links} />
-                    <Button wrapperClass='button' path='/home' label='Get In Touch' />
+                    <Button anchorPath='https://www.linkedin.com/in/lopezgabrieljs' label='Get In Touch' />
                 </div>
             </div>
         </header>
