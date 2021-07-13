@@ -87,11 +87,12 @@
 }
 
 .contact-inner-container .connect-wrapper .content p{
-    margin: 0 0 0 .6em;
+    /* margin: 0 0 0 .6em; */
     width: 100%;
     margin: .4rem 0 1.2rem;
     font-weight: 100;
     font-size: clamp(0.75em, 1vw, 1em);
+    line-height: 1.4;
 }
 
 .contact-inner-container .connect-wrapper .content a{

@@ -3,12 +3,12 @@
         "type": "Github",
         "url": "https://github.com/lopezg3000",
         "icon": "faGithub",
-        "description": "I am a github icon"
+        "description": "Follow for open-source projects such as creative-app and paypal-app"
     },
     {
         "type": "Linkedin",
-        "url": "www.linkedin.com/in/lopezgabrieljs",
+        "url": "https://www.linkedin.com/in/lopezgabrieljs",
         "icon": "faLinkedin",
-        "description": "I am a linkedin icon"
+        "description": "Let's connect on LinkedIn"
     }
 ]
