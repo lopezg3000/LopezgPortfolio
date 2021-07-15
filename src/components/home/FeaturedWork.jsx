@@ -19,14 +19,14 @@ const FeaturedWork = () => {
             <Project
                 cardImagePath={SmoothieKingLogo}
                 cardHeadline='Tribute Page'
-                link='https://quirky-haibt-a1517f.netlify.app'
+                link='https://smoothiekingclone.netlify.app'
                 cardDescription='I chose smoothie king as my tribute page because I believe in living a healthy lifestyle. I created this responsive website using React.js. Some of the features I included are: fade-in transitions, functional image carousels, and progressive image loading.'
                 imagePath={SmoothieKingScreenshot}
             />
             <Project
                 cardImagePath={PaypalLogo}
                 cardHeadline='Link Card Form'
-                link='https://brave-franklin-6c00c6.netlify.app'
+                link='https://linkcardform.netlify.app'
                 cardDescription='Payment options are essential to monetizing a website. Therefore, I decided to undertake the task of building a card form with react.js. Some of the features that make this form special are the floating labels when input fields are clicked. Also, I added a function that inserts a slash after the month in the expiration date input field.'
                 imagePath={PaypalScreenshot}
             />
