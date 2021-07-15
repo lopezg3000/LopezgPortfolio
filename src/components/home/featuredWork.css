@@ -54,3 +54,14 @@
 .project-wrapper .image-wrapper img{
     width: 100%;
 }
+
+@media only screen and (max-width: 1200px) {
+    .project-wrapper > .image-wrapper{
+       display: none;
+    }
+
+    .project-wrapper .card-wrapper {
+        width: 100%;
+    }
+
+}
