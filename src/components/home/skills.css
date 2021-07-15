@@ -64,7 +64,10 @@
     }
 
     .skills-container .card-wrapper .card-body .image-wrapper img{
-        width: 140px;
+        width: 100%;
+    }
+    .skills-container .card-wrapper .card-body .content {
+       width: 75%;
     }
 }
 
