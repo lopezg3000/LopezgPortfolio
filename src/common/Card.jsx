@@ -9,7 +9,7 @@ const Card = ({ cardImagePath, cardHeadline, cardDescription, link }) => {
     return (
         <div className='card-wrapper'>
             <div className='card-body'>
-                <Image imagePath={cardImagePath} />
+                <Image imagePath={cardImagePath} link={link} />
                 <Content
                     headline={cardHeadline}
                     description={cardDescription}

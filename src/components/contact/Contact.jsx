@@ -3,7 +3,7 @@ import './contact.css';
 import AboutColumn from './aboutColumn';
 import SocialColumn from './socialColumn';
 import Data from '../../data/social.json';
-import Thumbnail from '../../assets/CommonImages/thumbnailProfilePicture.JPG';
+import Thumbnail from '../../assets/CommonImages/thumbnailProfilePicture.jpeg';
 
 
 const Contact = () => {

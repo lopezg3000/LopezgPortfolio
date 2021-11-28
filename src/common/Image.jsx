@@ -1,9 +1,11 @@
 import React from 'react'
 
-const Image = ({ imagePath }) => {
+const Image = ({ imagePath, link }) => {
     return (
         <div className='image-wrapper'>
-            <img src={imagePath} alt='' />
+            <a href={link} target='_blank' rel="noopener noreferrer">
+                <img src={imagePath} alt='' />
+            </a>
         </div>
     );
 }
