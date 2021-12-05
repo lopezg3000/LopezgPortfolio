@@ -24,21 +24,24 @@ const FeaturedWork = () => {
                 cardImagePath={HelloSunshineLogo}
                 cardHeadline='Weather App'
                 link='https://hellosunshine.netlify.app'
-                cardDescription='Mauris at ipsum lorem. Pellentesque'
+                skills="HTML, CSS, JavaScript, Bootstrap"
+                cardDescription='Replace your weather app with Hello-Sunshine, the only weather app that guarantees you get a little sunshine even when it’s raining. Hello-Sunshine connects the national weather service and type-fit api to provide you the latest forecast as well as generate an inspirational quote when it rains. That way, you always get the sunshine you need.'
                 imagePath={HelloSunshineScreenshot}
             />
             <Project
                 cardImagePath={SafeTravelsLogo}
                 cardHeadline='Travel App'
                 link='https://safetravel-s.netlify.app'
-                cardDescription='Mauris at ipsum lorem. Pellentesque'
+                skills='HTML, CSS, JavaScript, Bootstrap, ChartJS'
+                cardDescription='Safe Travel was developed in 2021 during the Kennesaw State/Digital Crafts Flex June Cohort with a goal to help people make informed travel decisions. After a year and a half of pandemic stress, Gabriel, Julia and Carmen wanted to provide people who are ready for a change of scenery, a place to find Covid-19 stats about their potential travel destination. Thus "Safe Travel" was born.'
                 imagePath={SafeTravelsScreenshot}
             />
             <Project
                 cardImagePath={SmoothieKingLogo}
                 cardHeadline='Tribute Page'
                 link='https://smoothiekingclone.netlify.app'
-                cardDescription='I chose smoothie king as my tribute page because I believe in living a healthy lifestyle. I created this responsive website using React.js. Some of the features I included are: fade-in transitions, functional image carousels, and progressive image loading.'
+                skills='HTML, CSS, JavaScript, ReactJS'
+                cardDescription='I chose smoothie king as my tribute page because I believe in living a healthy lifestyle. Some of the features I included are: fade-in transitions, functional image carousels, and progressive image loading.'
                 imagePath={SmoothieKingScreenshot}
             />
 

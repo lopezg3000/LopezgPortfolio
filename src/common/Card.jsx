@@ -3,7 +3,7 @@ import Image from '../common/Image';
 import Content from '../common/Content';
 
 
-const Card = ({ cardImagePath, cardHeadline, cardDescription, link }) => {
+const Card = ({ cardImagePath, cardHeadline, cardDescription, link, skills }) => {
     // const [] = styles; -once I create the styles I will add them to html tags
 
     return (
@@ -14,6 +14,7 @@ const Card = ({ cardImagePath, cardHeadline, cardDescription, link }) => {
                     headline={cardHeadline}
                     description={cardDescription}
                     link={link}
+                    skills={skills}
                 />
             </div>
         </div>
