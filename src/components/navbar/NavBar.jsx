@@ -3,6 +3,7 @@ import './navbar.css';
 import Links from '../../common/Links';
 import Button from '../../common/Button';
 import { ReactComponent as ReactLogo } from '../../assets/CommonImages/logo.svg';
+import { NavLink } from 'react-router-dom';
 
 const links = [
     { label: 'Home', path: '/home' },
@@ -17,7 +18,9 @@ function NavBar() {
         <header>
             <div className='navbar-wrapper'>
                 <div className='logo-wrapper'>
-                    <ReactLogo className='logo' />
+                    <NavLink className='' to='/home'>
+                        <ReactLogo className='logo' />
+                    </NavLink>
                 </div>
                 <div className='menu-wrapper'>
                     <input type='checkbox' className='toggler' />

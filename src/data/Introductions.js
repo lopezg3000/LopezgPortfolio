@@ -8,8 +8,8 @@ export const introductions = [
         description: 'Succeed online with a website that is playful and uniquely handcrafted for you.'
     },
     {
-        headline: 'About',
-        description: 'Coming Soon'
+        headline: 'About Me',
+        description: ''
     },
     {
         headline: 'Testimonials',
@@ -17,3 +17,14 @@ export const introductions = [
     }
 
 ]
+
+//What skills from your previous experience can you bring into this new role?
+//What makes you passionate about software development?
+//Tell me more about the skills you've listed in your cover letter?
+
+
+/*
+
+
+
+*/
