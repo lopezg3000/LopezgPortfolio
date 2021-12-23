@@ -2,12 +2,12 @@ import React from 'react';
 import './featuredWork.css';
 import Project from './../../common/Project';
 import Subtitle from '../../common/Subtitle';
+import LaughboxScreenshot from '../../assets/CommonImages/laughboxScreenshot.jpg';
+import LaughboxLogo from '../../assets/CommonImages/laughboxLogo.jpg';
 import HelloSunshineScreenshot from '../../assets/CommonImages/helloSunshineScreenshot.jpg';
 import HelloSunshineLogo from '../../assets/CommonImages/helloSunshineLogo.jpg';
 import SafeTravelsLogo from '../../assets/CommonImages/safeTravelsLogo.jpg';
 import SafeTravelsScreenshot from '../../assets/CommonImages/safeTravelsScreenshot.jpg';
-import SmoothieKingLogo from '../../assets/CommonImages/smoothieKingLogo.jpg';
-import SmoothieKingScreenshot from '../../assets/CommonImages/smoothieKingScreenshot.jpg';
 // import UnderConstruction from '../../assets/CommonImages/underConstruction.jpg';
 // import ComingSoon from '../../assets/CommonImages/comingSoon.jpg';
 // import PaypalScreenshot from '../../assets/CommonImages/paypalScreenshot.jpg';
@@ -19,6 +19,14 @@ const FeaturedWork = () => {
         <section className='portfolio-container'>
             <Subtitle
                 subtitle='Featured Work'
+            />
+            <Project
+                cardImagePath={LaughboxLogo}
+                cardHeadline='Comedy TV App'
+                link='https://laughbox-app.herokuapp.com'
+                skills="ReactJS, PassportJS, node.js, postgreSQL"
+                cardDescription='Ready to whip out your funny bone and bash it violently on the nearest flat surface? Then you’re ready for LaffBoxTV. LaffBoxTV is a full-stack application that uses YouTube api to bring its users the best in comedy. If you like to watch funny videos and share jokes, then come laugh with us.'
+                imagePath={LaughboxScreenshot}
             />
             <Project
                 cardImagePath={HelloSunshineLogo}
@@ -36,15 +44,6 @@ const FeaturedWork = () => {
                 cardDescription='Safe Travel was developed in 2021 during the Kennesaw State/Digital Crafts Flex June Cohort with a goal to help people make informed travel decisions. After a year and a half of pandemic stress, Gabriel, Julia and Carmen wanted to provide people who are ready for a change of scenery, a place to find Covid-19 stats about their potential travel destination. Thus "Safe Travel" was born.'
                 imagePath={SafeTravelsScreenshot}
             />
-            <Project
-                cardImagePath={SmoothieKingLogo}
-                cardHeadline='Tribute Page'
-                link='https://smoothiekingclone.netlify.app'
-                skills='HTML, CSS, JavaScript, ReactJS'
-                cardDescription='I chose smoothie king as my tribute page because I believe in living a healthy lifestyle. Some of the features I included are: fade-in transitions, functional image carousels, and progressive image loading.'
-                imagePath={SmoothieKingScreenshot}
-            />
-
 
             {/* <Project
                 cardImagePath={PaypalLogo}

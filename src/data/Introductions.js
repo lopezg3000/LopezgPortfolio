@@ -1,10 +1,10 @@
 export const introductions = [
     {
-        headline: 'Flawless Front-end Development',
-        description: "Hi. I'm Gabriel, a Front-end Developer with a passion for visual and responsive design."
+        headline: 'Flawless Full-Stack Development',
+        description: "Hi. I'm Gabriel, a Full-Stack Developer with a passion for visual and responsive design."
     },
     {
-        headline: 'Front-end Development Portfolio',
+        headline: 'Full-Stack Development Portfolio',
         description: 'Succeed online with a website that is playful and uniquely handcrafted for you.'
     },
     {
