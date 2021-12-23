@@ -12,9 +12,9 @@ const Contact = () => {
             <div className='contact-inner-container'>
                 <AboutColumn
                     cardImagePath={Thumbnail}
-                    cardDescription='I am a Front-end Developer who respects and admires the culture, process, and craft of web development. I create beautiful websites that are fast, scalable, and functional.'
+                    cardDescription='I am a Full-Stack Developer who respects and admires the culture, process, and craft of web development. I create beautiful websites that are fast, scalable, and functional.'
                     headline='Available July 2021. Hire now'
-                    description='Front-end Developer'
+                    description='Full-Stack Developer'
                 />
                 <SocialColumn
                     data={Data}

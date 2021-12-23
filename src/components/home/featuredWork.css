@@ -4,9 +4,9 @@
     margin: 4.4em auto 1.6em;
 }
 
-.portfolio-container .project-wrapper:last-child {
+/* .portfolio-container .project-wrapper:last-child {
     margin: 0;
-}
+} */
 
 .project-wrapper {
     width: 100%;
